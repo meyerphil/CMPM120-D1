@@ -6,7 +6,7 @@ export default class StudioTitle extends Phaser.Scene {
     }
   
     preload() {
-      this.load.image('StudioTitle', 'assets/studio.png');
+      this.load.image('StudioTitle', 'assets/Studio.png');
       this.load.image('littleDude', 'assets/walking/littleDude.png');
     }
 
