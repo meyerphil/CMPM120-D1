@@ -9,12 +9,12 @@
         Opening Studio Scene before game title screen.
 
 ###    8 Requirements 
-		- 3+ distinct visual scenes (with distinct “Scene” classes)
+		1. 3+ distinct visual scenes (with distinct “Scene” classes)
 	
 	I have 3 scenes(CaveScene, StudioTitle, GameScreen) with their own Scene classes.
 	Each created in their own .js files.
 	
-		- 2+ audio assets (e.g. background music and a sound effect)
+		2. 2+ audio assets (e.g. background music and a sound effect)
 	
 	In the CaveScene, I have 2 audio assets recorded by my phone.
 	The first is 'Fire.wav' created by me using a ziplock bag of seeds
@@ -22,7 +22,7 @@
 	The second audio is 'Drum.wav' which is me drumming on my desk,
 	as background music for the scene.
 	
-		- 2+ image assets (one with transparent background)
+		3. 2+ image assets (one with transparent background)
 		
 	I have multiple images across multiple scenes.
 	In the CaveScene, I have a shadow figure walking and a tree.
@@ -33,29 +33,30 @@
 	In the GameScreen, I have the background of the title screen as some
 	nature scenery. I drew this using Procreate on my IPad.
 		
-		- 2+ geometric shapes (rendered in-engine)
+		4. 2+ geometric shapes (rendered in-engine)
 	
 	I had Triangles and Rectangle shapes created using Phaser3
 	in the CaveScene. 
 	
 	These 4 shapes create the fire object.
 	
-		- 1+ big fancy text (composed out of engine)
+		5. 1+ big fancy text (composed out of engine)
 		
 	Using Google Slides, I created fancy text for StudioTitle scene,
-	'Cave Art Studios', which gives it a hand-written look.
+	'Cave Art Studios', which gives it a hand-written look. 
+	I screenshotted it.
 		
-		- 1+ multi-line text (rendered in-engine)
+		6. 1+ multi-line text (rendered in-engine)
 		
 	In the GameScreen, I have two multi-line Phaser3 text objects
 	for the title of the game and the select objects.
 	
-		- 1+ fading scene transition (e.g. fade to black)
+		7. 1+ fading scene transition (e.g. fade to black)
 		
 	Twice, between the CaveScene -> StudioTitle -> GamScreen,
 	I have a fade to black transition between scenes.
 		
-		- 1+ object motion animation (e.g. sliding in from the side)
+		8. 1+ object motion animation (e.g. sliding in from the side)
 		
 	In the CaveScene, I have the Fire object move from off screen using
 	a tween.
